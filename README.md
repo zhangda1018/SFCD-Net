@@ -24,7 +24,6 @@ The repository is the code implementation of the paper [ Integrating SAM with Fe
 
 The current branch has been tested under PyTorch 2.x and CUDA 12.1, supports Python 3.7+, and is compatible with most CUDA versions.
 
-If you find this project helpful, please give us a star ⭐️, your support is our greatest motivation.
 
 
 ## Installation
@@ -85,7 +84,7 @@ pip install -U wandb einops importlib peft==0.8.2 scipy ftfy prettytable torchme
 ### Install SFCD
 
 
-Download or clone the TTP repository.
+Download or clone the SFCD-Net repository.
 
 ```shell
 git clone git@github.com:zhangda1018/SFCD-Net.git
@@ -136,7 +135,8 @@ If you want to use other datasets, you can refer to [MMSegmentation documentatio
 #### Config File and Main Parameter Parsing
 
 We provide the configuration files of the SFCD model used in the paper, which can be found in the `configs/SFCD` folder. The Config file is completely consistent with the API interface and usage of MMSegmentation. Below we provide an analysis of some of the main parameters. If you want to know more about the meaning of the parameters, you can refer to [MMSegmentation documentation](https://mmsegmentation.readthedocs.io/zh-cn/latest/user_guides/1_config.html).
-<details>
+
+
 
 
 #### Single Card Training
@@ -144,7 +144,6 @@ We provide the configuration files of the SFCD model used in the paper, which ca
 ```shell
 python tools/train.py configs/SFCD/xxx.py  # xxx.py is the configuration file you want to use
 ```
-
 
 
 ## Model Testing
