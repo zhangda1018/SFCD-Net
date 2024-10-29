@@ -20,7 +20,7 @@
 
 ## Introduction
 
-The repository is the code implementation of the paper [ Integrating SAM with Feature Interaction for Remote Sensing Change Detection]([1](https://ieeexplore.ieee.org/document/10737290)), based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [TTP](https://github.com/KyanChen/TTP) projects.
+The repository is the code implementation of the paper [ Integrating SAM with Feature Interaction for Remote Sensing Change Detection](https://ieeexplore.ieee.org/document/10737290), based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [TTP](https://github.com/KyanChen/TTP) projects.
 
 The current branch has been tested under PyTorch 2.x and CUDA 12.1, supports Python 3.7+, and is compatible with most CUDA versions.
 
