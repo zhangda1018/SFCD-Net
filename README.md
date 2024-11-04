@@ -176,6 +176,13 @@ The repository is the code implementation of the paper [Integrating SAM with Fea
 If you use the code or performance benchmarks of this project in your research, please refer to the following bibtex to cite SFCD.
 
 ```
+@article{zhang2024integrating,
+  title={Integrating SAM with Feature Interaction for Remote Sensing Change Detection},
+  author={Zhang, Da and Wang, Feiyu and Ning, Lichen and Zhao, Zhiyuan and Gao, Junyu and Li, Xuelong},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
 ```
 
 ## License
